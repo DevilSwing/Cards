@@ -1,0 +1,51 @@
+body {
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	font-family: "roboto", sans-serif;
+}
+
+button {
+	border: none;
+	padding: 15px;
+	color: yellow;
+	background-color: black;
+}
+.fixed {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	min-height: 60px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #aff;
+}
+.deck {
+	margin-top: 60px;
+}
+.deck-cards{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: stretch;
+	align-items: stretch;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	margin-right: 200px;
+	
+}
+.card {
+	width: 160px;
+}
+
+input {
+	border: none;
+	margin-left: 15px;
+	background-color: red;
+	color: blue;
+}
+
